@@ -1,0 +1,18 @@
+{
+  "name": "prueba-tecnica-getronics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "cypress:open": "cypress open",
+  "cypress:run": "cypress run",
+  "browser": "npm run cypress:open",
+  "console": "npm run cypress:run"
+  },
+  "keywords": [],
+  "author": "Luciano Rubin",
+  "license": "ISC",
+  "description": "Prueba técnica para QA tester trainee/junior en Getronics",
+  "devDependencies": {
+    "cypress": "^15.2.0"
+  }
+}
