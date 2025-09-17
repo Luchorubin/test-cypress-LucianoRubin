@@ -1,4 +1,4 @@
-﻿# prueba-tecnica - Getronics - LUCIANO RUBIN
+# prueba-tecnica - Getronics - LUCIANO RUBIN
 
 ## 1️⃣ Descripción de la prueba técnica
 
@@ -9,7 +9,9 @@ Se utilizan Cypress y el patrón Page Object para mantener el código limpio y e
 
 En el archivo tests.cy.js se encuentran los casos de prueba con su correspondiente lógica de negocio.
 
-NOTA: Se ignoraron excepciones no críticas de la aplicación para poder correr los test de forma correcta. Esto se encuentra en el archivo e2e.js
+NOTA: 
+- Se ignoraron excepciones no críticas de la aplicación para poder correr los test de forma correcta. Esto se encuentra en el archivo e2e.js
+- En algunos casos ocurre que algunos test fallan por problemas de conexión y/o rendimiento del sistema donde se ejecutan.
 
 Los casos de prueba implementados incluyen:
 
@@ -43,5 +45,4 @@ Se tuvieron en consideración las [buenas practicas](https://docs.cypress.io/app
 
 Una posible mejora sería la implementación de atributos data-* como localizadores. Actualmente, los selectores utilizados se basan en clases, id, estructuras html o texto contenido. Esto puede llegar a generar conflictos si se realizan cambios en el frontend. Una manera de evitar esto sería utilizar selectores basados en atributos data-* que son más resistentes a cambios. 
 
-Además, esto genera que algunos tests fallen en algunos casos por problemas de conexión y/o rendimiento del sistema donde se ejecutan.
 
